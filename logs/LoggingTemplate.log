@@ -1,0 +1,15 @@
+2022-02-21 21:33:43-INFO-__main__::main(10) - Starting program
+2022-02-21 21:33:43-INFO-testmodule::testmodule(8) - Everything goes as expected
+2022-02-21 21:33:43-INFO-testmodule::testmodule(15) - Info output !
+2022-02-21 21:33:43-WARNING-testmodule::testmodule(16) - Warning output !
+2022-02-21 21:33:43-CRITICAL-testmodule::testmodule(17) - Critical output !
+2022-02-21 21:33:43-ERROR-testmodule::testmodule(18) - Error output !
+2022-02-21 21:33:43-INFO-testmodule::testmodule(15) - Info output !
+2022-02-21 21:33:43-WARNING-testmodule::testmodule(16) - Warning output !
+2022-02-21 21:33:43-CRITICAL-testmodule::testmodule(17) - Critical output !
+2022-02-21 21:33:43-ERROR-testmodule::testmodule(18) - Error output !
+2022-02-21 21:33:43-ERROR-testmodule::testmodule(23) - Error (exception case) output !
+Traceback (most recent call last):
+  File "E:\Proyectos\LoggingTemplate\testmodule.py", line 21, in levelstest
+    raise TypeError("I don't want a string on my function !")
+TypeError: I don't want a string on my function !

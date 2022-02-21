@@ -1,0 +1,11 @@
+2022-02-21 21:33:43,799-WARNING-testmodule-PID:2112::testmodule(16) - levelstest - Warning output !
+2022-02-21 21:33:43,800-CRITICAL-testmodule-PID:2112::testmodule(17) - levelstest - Critical output !
+2022-02-21 21:33:43,800-ERROR-testmodule-PID:2112::testmodule(18) - levelstest - Error output !
+2022-02-21 21:33:43,800-WARNING-testmodule-PID:2112::testmodule(16) - levelstest - Warning output !
+2022-02-21 21:33:43,801-CRITICAL-testmodule-PID:2112::testmodule(17) - levelstest - Critical output !
+2022-02-21 21:33:43,801-ERROR-testmodule-PID:2112::testmodule(18) - levelstest - Error output !
+2022-02-21 21:33:43,802-ERROR-testmodule-PID:2112::testmodule(23) - levelstest - Error (exception case) output !
+Traceback (most recent call last):
+  File "E:\Proyectos\LoggingTemplate\testmodule.py", line 21, in levelstest
+    raise TypeError("I don't want a string on my function !")
+TypeError: I don't want a string on my function !
